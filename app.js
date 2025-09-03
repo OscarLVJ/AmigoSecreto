@@ -24,6 +24,26 @@ function normalizarNombre(nombre) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
+function reiniciarJuego() {
+  // Limpiar la lista de amigos
+  listaAmigos = [];
+
+  // Limpiar la lista visual en HTML
+  const ulAmigos = document.querySelector('#listaAmigos');
+  const ulResultado = document.querySelector('#resultado');
+  ulAmigos.innerHTML = '';
+  ulResultado.innerHTML = '';
+
+  // Limpiar el input
+  document.querySelector('#amigo').value = '';
+
+  // Deshabilitar botón de sorteo porque la lista queda vacía
+  document.querySelector('.button-draw').disabled = true;
+
+  // Poner foco de nuevo en el input para agregar nuevos nombres
+  document.querySelector('#amigo').focus();
+}
+
 function renderListaAmigos() {
   const ul = document.querySelector('#listaAmigos');
   ul.innerHTML = '';

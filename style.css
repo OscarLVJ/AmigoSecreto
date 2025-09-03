@@ -160,3 +160,22 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+.button-reset {
+  margin-top: 15px;
+  padding: 12px 50px;
+  background-color: #f54242;
+  color: white;
+  border: 1px solid #000;
+  border-radius: 20px 20px 20 20;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  display: inline-block;
+  overflow: visible;
+}
+
+
+.button-reset:hover {
+  background-color: #d12e2e;
+}
