@@ -30,6 +30,7 @@ git clone https://github.com/OscarLVJ/AmigoSecreto.git
 ## Capturas
 
 <img width="1890" height="889" alt="image" src="https://github.com/user-attachments/assets/e303e64b-b48c-4bdb-bfb1-dd2284792fe0" />
+<img width="1912" height="893" alt="image" src="https://github.com/user-attachments/assets/009c63b9-6f01-4d27-89db-ac7d8b80c56f" />
 
 
 ## Tecnologías utilizadas
